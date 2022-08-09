@@ -14,18 +14,28 @@
        <?php
 
 echo " <h2>Basic Php practice tutorial </h2>";
-// data type check
+/* string : strln, str_count_word, strrev, strpos, str_replace()*/
+$name = "Asrafuzzaman mithu";
 
-$x = 10;
-var_dump($x);
-$y = "name";
-var_dump($y);
-$students = array("korim", "rohim", "hafij");
-var_dump($students);
-$A = 33.00;
-var_dump($A);
+function mt()
+{
+    global $name;
+    echo str_word_count(" word of :$name");
+    echo "<br>";
+    echo strlen("lenth of name:$name");
+    echo "<br>";
+
+    echo strrev("reverce of name:$name");
+    echo "<br>";
+
+    echo strpos("pos of name:$name", "mithu");
+    echo "<br>";
 
 
+
+
+}
+mt();
 
 
 
