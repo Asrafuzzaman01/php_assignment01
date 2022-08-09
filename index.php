@@ -15,18 +15,40 @@
 
 echo " <h2>Basic Php practice tutorial </h2>";
 
-//local var variable scope dec...
+//Global Keyword
 
-
-
-function mt()
+$x = 30;
+$y = 20;
+function test()
 {
-    $name = "mithu sultan";
-    echo "my name is :  $name";
+    global $x, $y;
+    $y = $x + $y;
 
 
 }
-mt();
+test();
+echo "$y";
+// static keyword
+
+function st()
+{
+    static $x = 10;
+    echo $x;
+    $x--;
+
+
+}
+st();
+echo "<br>";
+st();
+echo "<br>";
+st();
+echo "<br>";
+st();
+
+
+
+
 
 
 
