@@ -16,6 +16,12 @@ var_dump(is_int($x));
 $v = 12.78;
 var_dump(is_int($v));
 
+//Check if the type of a variable is float:
+
+$a = 666.99;
+var_dump(is_float($a));
+
+
 
 ?>
 
