@@ -48,7 +48,23 @@ var_dump(is_numeric($x));
 $x = "Hello";
 var_dump(is_numeric($x));
 
+// Cast float to int
+$v = 5675.878;
+echo (int)$v;
+echo "<br>";
+// Cast string to int  
+$z = "6768978.898";
+echo (int)$z;
+
+
+
 ?>
+
+
+
+
+
+
 
     
 </body>
