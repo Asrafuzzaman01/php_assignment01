@@ -20,6 +20,14 @@ var_dump(is_int($v));
 
 $a = 666.99;
 var_dump(is_float($a));
+//finit or infinite value
+$x = 1.9e411;
+var_dump($x);
+echo "<br>";
+//invalide calculation 
+$x = acos(7);
+var_dump($x);
+
 
 
 
