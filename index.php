@@ -15,20 +15,19 @@
 
 echo " <h2>Basic Php practice tutorial </h2>";
 
-//global variable scope dec...
+//local var variable scope dec...
 
-$name = "mithu";
+
 
 function mt()
 {
-
-
-
+    $name = "mithu sultan";
+    echo "my name is :  $name";
 
 
 }
 mt();
-echo " my name is :$name";
+
 
 
 
