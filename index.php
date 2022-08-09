@@ -14,43 +14,16 @@
        <?php
 
 echo " <h2>Basic Php practice tutorial </h2>";
+// data type check
 
-//Global Keyword
-
-$x = 30;
-$y = 20;
-function test()
-{
-    global $x, $y;
-    $y = $x + $y;
-
-
-}
-test();
-echo "$y";
-// static keyword
-
-function st()
-{
-    static $x = 10;
-    echo $x;
-    $x--;
-
-
-}
-st();
-echo "<br>";
-st();
-echo "<br>";
-st();
-echo "<br>";
-st();
-
-
-
-
-
-
+$x = 10;
+var_dump($x);
+$y = "name";
+var_dump($y);
+$students = array("korim", "rohim", "hafij");
+var_dump($students);
+$A = 33.00;
+var_dump($A);
 
 
 
