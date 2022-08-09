@@ -15,12 +15,20 @@
 
 echo " <h2>Basic Php practice tutorial </h2>";
 
-//variable declaration 
-$x = 5;
-$y = 6;
-$z = $x + $y;
-echo "$z";
+//global variable scope dec...
 
+$name = "mithu";
+
+function mt()
+{
+
+
+
+
+
+}
+mt();
+echo " my name is :$name";
 
 
 
