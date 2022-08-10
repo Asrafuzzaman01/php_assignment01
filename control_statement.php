@@ -14,8 +14,18 @@
 $numbr = 66;
 if ($numbr < 100) {
     echo "$numbr is less than 100";
+    echo "<br>";
 }
 
+//if else statement
+$x = 13;
+if ($x % 2 == 0) {
+    echo "$x is a even number";
+}
+else {
+    echo "$x is a odd number";
+
+}
 
 
 
