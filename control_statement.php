@@ -54,7 +54,39 @@ else if ($marks >= 80 && $marks <= 100) {
 }
 else {
     echo "invelide your result";
+    
 }
+echo"<br>";
+
+
+
+//switch statement with string
+
+$x = "c.cse";
+switch($x)
+{
+
+    case "c.eng";
+    echo"eng is 4 years course";
+    break;
+    case "c.LLB";
+    echo"LLB is 4 years course";
+    break;
+    case"c.cse";
+    echo"cse is 4 years course";
+    break;
+
+    case"c.BBA";
+    echo"BBA is 4 years course";
+    break;
+
+    default;
+    echo"Wrong choice";
+
+
+
+}
+
 
 
 
