@@ -91,6 +91,13 @@ for ($x = 0; $x <=20; $x++) {
     echo "The number is: $x <br>";
   }
 
+  // foreach 
+  $colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $value) {
+  echo "$value <br>";
+}
+
 
 
 
