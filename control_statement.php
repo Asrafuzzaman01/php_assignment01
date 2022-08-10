@@ -26,7 +26,35 @@ else {
     echo "$x is a odd number";
 
 }
+echo "<br>";
+//if else if statement     
+$marks = 69;
+if ($marks < 33) {
+    echo "FAIL";
+}
+else if ($marks >= 34 && $marks < 50) {
+    echo "D grade";
 
+
+}
+else if ($marks >= 50 && $marks < 60) {
+    echo "C grade";
+}
+else if ($marks >= 60 && $marks < 70) {
+    echo "B grade";
+
+}
+else if ($marks >= 70 && $marks < 80) {
+    echo "A grade";
+
+
+}
+else if ($marks >= 80 && $marks <= 100) {
+    echo "A+ grade";
+}
+else {
+    echo "invelide your result";
+}
 
 
 
